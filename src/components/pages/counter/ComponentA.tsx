@@ -1,6 +1,6 @@
 import { Dispatch } from "react"
 import { useDispatch } from "react-redux"
-import { IncreaseCountAction } from "../store/counter/action";
+import { IncreaseCountAction } from "../../../store/counter/action";
 
 const ComponentA = () => {
   const dispatch: Dispatch<any> = useDispatch();

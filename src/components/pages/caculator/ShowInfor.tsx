@@ -1,6 +1,6 @@
 
 import { useSelector } from 'react-redux'
-import { ICaculatorState } from '../store/caculator/reducer'
+import { ICaculatorState } from '../../../store/caculator/reducer'
 
 const ShowInfor = () => {
     const CaculatorState = useSelector(

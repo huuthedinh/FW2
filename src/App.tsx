@@ -2,8 +2,6 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Layout from './components/template/Layout'
-import Tasks from './components/Tasks'
-import About from './components/About'
 import ShowStudent from './components/pages/student/ShowStudent'
 // import Caculator from './components/Caculator'
 // import ComponentA from './components/ComponentA'
@@ -26,9 +24,8 @@ function App() {
       <Caculator></Caculator>  */}
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="tasks" element={<Tasks />} />
+
         </Route>
-        <Route path="about" element={<About />} />
         <Route path="show" element={<ShowStudent />} />
       </Routes>
 

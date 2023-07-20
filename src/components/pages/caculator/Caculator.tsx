@@ -1,6 +1,6 @@
 import { Dispatch, useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { AddCounterAction, DivCounterAction, MulCounterAction, SubCounterAction } from '../store/caculator/action'
+import { AddCounterAction, DivCounterAction, MulCounterAction, SubCounterAction } from '../../../store/caculator/action'
 
 const Caculator = () => {
 
